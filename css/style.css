@@ -167,3 +167,43 @@ textarea {
   border: 1px solid white;
   border-radius: 0.8rem;
 }
+
+/* Footer Section */
+#footer {
+  padding: 8rem 18%;
+  background-color: white;
+  text-align: center;
+}
+
+#footer > h1 {
+  font-family: var(--inter);
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+#footer > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: grey;
+  margin: 1.4rem 0;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: grey;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-link:hover {
+  color: black;
+}
