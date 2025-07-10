@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Raleway:wght@400;600;700;800&display=swap");
+
+:root {
+  --raleway: "Raleway", sans-serif;
+  --inter: "Inter", sans-serif;
+
+  --primary-color: #4d5dfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--raleway);
+}
+
+#banner {
+  background-image: url("../assets/hero-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  padding: 4rem 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: var(--inter);
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.button {
+  padding: 1rem 2.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: var(--raleway);
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.7rem;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+#banner-content {
+  padding: 20rem 4rem;
+  text-align: center;
+}
+
+#banner-content > h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
