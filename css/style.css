@@ -59,6 +59,11 @@ body {
   color: var(--primary-color);
 }
 
+.small-button {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
 #banner-content {
   padding: 12rem 4rem;
   text-align: center;
@@ -205,6 +210,34 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   color: grey;
+}
+
+/* Get Started Section */
+#get-started {
+  margin: 2rem 12%;
+  padding: 6rem 8rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#get-started > h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#get-started > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: grey;
+}
+
+#get-started > img {
+  border-radius: 2rem;
 }
 
 /* Newsletter Section */
