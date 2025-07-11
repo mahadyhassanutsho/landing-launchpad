@@ -132,6 +132,81 @@ body {
   color: grey;
 }
 
+/* Review Section */
+#review {
+  margin: 6rem 18%;
+}
+
+#review > h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#review-card-container {
+  margin-top: 2.6rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.review-card {
+  background-color: white;
+  padding: 1.6rem 1.4rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 1rem;
+  max-width: 36ch;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 1.2rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.28rem;
+}
+
+.stars > img {
+  width: 2.8ch;
+}
+
+.review-content > h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.review-content > p {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.reviewer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.reviewer > img {
+  width: 6ch;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.review-date {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: grey;
+}
+
 /* Newsletter Section */
 #newsletter {
   margin: 6rem 18%;
