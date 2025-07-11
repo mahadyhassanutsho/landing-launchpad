@@ -28,7 +28,7 @@ body {
 }
 
 #navbar {
-  padding: 4rem 18%;
+  padding: 4rem 12%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +60,7 @@ body {
 }
 
 #banner-content {
-  padding: 14rem 4rem;
+  padding: 12rem 4rem;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ body {
 
 /* Action Section */
 #action {
-  padding: 6rem 18%;
+  padding: 6rem 12%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,7 +97,7 @@ body {
 
 /* User Section */
 #user {
-  margin: 6rem 18%;
+  margin: 6rem 12%;
   background-color: var(--secondary-color);
   padding: 4rem 8rem;
   border-radius: 1rem;
@@ -134,7 +134,7 @@ body {
 
 /* Review Section */
 #review {
-  margin: 6rem 18%;
+  margin: 8rem 12%;
 }
 
 #review > h3 {
@@ -209,8 +209,8 @@ body {
 
 /* Newsletter Section */
 #newsletter {
-  margin: 6rem 18%;
-  padding: 6rem 0;
+  margin: 6rem 12%;
+  padding: 4rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,7 +245,7 @@ textarea {
 
 /* Footer Section */
 #footer {
-  padding: 8rem 18%;
+  padding: 6rem 12%;
   background-color: white;
   text-align: center;
 }
